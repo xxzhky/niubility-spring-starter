@@ -1,0 +1,14 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+*.iml
+out
+gen
+
+
+log/
+target/
+*.idea
+*.log
+*.temp
+target
+*.log*

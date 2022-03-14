@@ -1,0 +1,186 @@
+{
+  "privateParam": {
+    "reader": {
+      "dsName": "defaultHive",
+      "projectId": 257,
+      "dsType": "hive",
+      "projectName": "ysmAutoTestNoRoot",
+      "dsId": 1,
+      "tableName": [
+        "hivetb_20220120143158433"
+      ],
+      "where": "bb>0",
+      "columns": [
+        {
+          "name": "aa",
+          "dataType": "STRING",
+          "fieldType": "",
+          "len": "50",
+          "op": "",
+          "fake": false
+        },
+        {
+          "name": "bb",
+          "dataType": "NUMBER",
+          "fieldType": "",
+          "len": "9",
+          "op": "",
+          "fake": false
+        },
+        {
+          "name": "cc",
+          "dataType": "DECIMAL",
+          "fieldType": "",
+          "len": "20,18",
+          "op": "ceil(cc)",
+          "fake": false
+        },
+        {
+          "name": "dd",
+          "dataType": "DATE",
+          "fieldType": "",
+          "len": "50",
+          "op": "",
+          "fake": false
+        },
+        {
+          "name": "ee",
+          "dataType": "TIME",
+          "fieldType": "",
+          "len": "8",
+          "op": "",
+          "fake": false
+        },
+        {
+          "name": "ff",
+          "dataType": "DATETIME",
+          "fieldType": "",
+          "len": "19",
+          "op": "",
+          "fake": false
+        }
+      ],
+      "advanced": {
+      },
+      "common": {
+      },
+      "dbName": "hiveDb_20220120143156545"
+    },
+    "writer": {
+      "dsName": "defaultHive",
+      "projectId": 257,
+      "dsType": "hive",
+      "projectName": "ysmAutoTestNoRoot",
+      "dsId": 1,
+      "tableName": [
+        "hivePatb_20220120143139476"
+      ],
+      "columns": [
+        {
+          "name": "aa",
+          "dataType": "STRING",
+          "fieldType": "",
+          "len": "50",
+          "defaultValue": "a",
+          "isPartition": true,
+          "partitionType": "static",
+          "fake": false
+        },
+        {
+          "name": "bb",
+          "dataType": "NUMBER",
+          "fieldType": "",
+          "len": "9",
+          "defaultValue": "1",
+          "isPartition": true,
+          "partitionType": "static",
+          "fake": false
+        },
+        {
+          "name": "cc",
+          "dataType": "DECIMAL",
+          "fieldType": "",
+          "len": "10,2",
+          "defaultValue": "",
+          "isPartition": false,
+          "partitionType": "static",
+          "fake": false
+        },
+        {
+          "name": "dd",
+          "dataType": "DATE",
+          "fieldType": "",
+          "len": "50",
+          "defaultValue": "",
+          "isPartition": false,
+          "partitionType": "static",
+          "fake": false
+        },
+        {
+          "name": "ee",
+          "dataType": "TIME",
+          "fieldType": "",
+          "len": "8",
+          "defaultValue": "",
+          "isPartition": false,
+          "partitionType": "static",
+          "fake": false
+        },
+        {
+          "name": "ff",
+          "dataType": "DATETIME",
+          "fieldType": "",
+          "len": "19",
+          "defaultValue": "",
+          "isPartition": false,
+          "partitionType": "static",
+          "fake": false
+        }
+      ],
+      "advanced": {
+      },
+      "common": {
+        "writeMode": "insert into",
+        "syncMode": "jdbc"
+      },
+      "dbName": "hivePaDb_20220120143137162"
+    },
+    "channel": {
+      "parallel": "4",
+      "faultTolerantNum": 0,
+      "faultTolerantPercent": 7,
+      "faultTolerant": "percent",
+      "syncSpeed": "limit",
+      "noLimit": "",
+      "recordLimit": 0,
+      "byteLimit": 50,
+      "limit": "byte"
+    },
+    "lines": [
+      {
+        "source": "cc",
+        "target": "cc"
+      },
+      {
+        "source": "dd",
+        "target": "dd"
+      },
+      {
+        "source": "ee",
+        "target": "ee"
+      },
+      {
+        "source": "ff",
+        "target": "ff"
+      }
+    ]
+  },
+  "customParam": {
+  },
+  "inputParam": [
+  ],
+  "outputParam": [
+  ],
+  "templateParam": {
+  }
+}

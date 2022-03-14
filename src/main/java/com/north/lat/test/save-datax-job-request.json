@@ -1,0 +1,70 @@
+{
+  "jobId": "220310101025165@1",
+  "jobName": "lake",
+  "params": "eyJwcml2YXRlUGFyYW0iOnsicmVhZGVyIjp7ImRzTmFtZSI6ImRlZmF1bHRIaXZlIiwicHJvamVjdElkIjoyNTcsImRzVHlwZSI6ImhpdmUiLCJwcm9qZWN0TmFtZSI6InlzbUF1dG9UZXN0Tm9Sb290IiwiZHNJZCI6MSwidGFibGVOYW1lIjpbImhpdmV0Yl8yMDIyMDEyMDE0MzE1ODQzMyJdLCJ3aGVyZSI6ImJiPjAiLCJjb2x1bW5zIjpbeyJuYW1lIjoiYWEiLCJkYXRhVHlwZSI6IlNUUklORyIsImZpZWxkVHlwZSI6IiIsImxlbiI6IjUwIiwib3AiOiIiLCJmYWtlIjpmYWxzZX0seyJuYW1lIjoiYmIiLCJkYXRhVHlwZSI6Ik5VTUJFUiIsImZpZWxkVHlwZSI6IiIsImxlbiI6IjkiLCJvcCI6IiIsImZha2UiOmZhbHNlfSx7Im5hbWUiOiJjYyIsImRhdGFUeXBlIjoiREVDSU1BTCIsImZpZWxkVHlwZSI6IiIsImxlbiI6IjIwLDE4Iiwib3AiOiJjZWlsKGNjKSIsImZha2UiOmZhbHNlfSx7Im5hbWUiOiJkZCIsImRhdGFUeXBlIjoiREFURSIsImZpZWxkVHlwZSI6IiIsImxlbiI6IjUwIiwib3AiOiIiLCJmYWtlIjpmYWxzZX0seyJuYW1lIjoiZWUiLCJkYXRhVHlwZSI6IlRJTUUiLCJmaWVsZFR5cGUiOiIiLCJsZW4iOiI4Iiwib3AiOiIiLCJmYWtlIjpmYWxzZX0seyJuYW1lIjoiZmYiLCJkYXRhVHlwZSI6IkRBVEVUSU1FIiwiZmllbGRUeXBlIjoiIiwibGVuIjoiMTkiLCJvcCI6IiIsImZha2UiOmZhbHNlfV0sImFkdmFuY2VkIjp7fSwiY29tbW9uIjp7fSwiZGJOYW1lIjoiaGl2ZURiXzIwMjIwMTIwMTQzMTU2NTQ1In0sIndyaXRlciI6eyJkc05hbWUiOiJkZWZhdWx0SGl2ZSIsInByb2plY3RJZCI6MjU3LCJkc1R5cGUiOiJoaXZlIiwicHJvamVjdE5hbWUiOiJ5c21BdXRvVGVzdE5vUm9vdCIsImRzSWQiOjEsInRhYmxlTmFtZSI6WyJoaXZlUGF0Yl8yMDIyMDEyMDE0MzEzOTQ3NiJdLCJjb2x1bW5zIjpbeyJuYW1lIjoiYWEiLCJkYXRhVHlwZSI6IlNUUklORyIsImZpZWxkVHlwZSI6IiIsImxlbiI6IjUwIiwiZGVmYXVsdFZhbHVlIjoiYSIsImlzUGFydGl0aW9uIjp0cnVlLCJwYXJ0aXRpb25UeXBlIjoic3RhdGljIiwiZmFrZSI6ZmFsc2V9LHsibmFtZSI6ImJiIiwiZGF0YVR5cGUiOiJOVU1CRVIiLCJmaWVsZFR5cGUiOiIiLCJsZW4iOiI5IiwiZGVmYXVsdFZhbHVlIjoiMSIsImlzUGFydGl0aW9uIjp0cnVlLCJwYXJ0aXRpb25UeXBlIjoic3RhdGljIiwiZmFrZSI6ZmFsc2V9LHsibmFtZSI6ImNjIiwiZGF0YVR5cGUiOiJERUNJTUFMIiwiZmllbGRUeXBlIjoiIiwibGVuIjoiMTAsMiIsImRlZmF1bHRWYWx1ZSI6IiIsImlzUGFydGl0aW9uIjpmYWxzZSwicGFydGl0aW9uVHlwZSI6InN0YXRpYyIsImZha2UiOmZhbHNlfSx7Im5hbWUiOiJkZCIsImRhdGFUeXBlIjoiREFURSIsImZpZWxkVHlwZSI6IiIsImxlbiI6IjUwIiwiZGVmYXVsdFZhbHVlIjoiIiwiaXNQYXJ0aXRpb24iOmZhbHNlLCJwYXJ0aXRpb25UeXBlIjoic3RhdGljIiwiZmFrZSI6ZmFsc2V9LHsibmFtZSI6ImVlIiwiZGF0YVR5cGUiOiJUSU1FIiwiZmllbGRUeXBlIjoiIiwibGVuIjoiOCIsImRlZmF1bHRWYWx1ZSI6IiIsImlzUGFydGl0aW9uIjpmYWxzZSwicGFydGl0aW9uVHlwZSI6InN0YXRpYyIsImZha2UiOmZhbHNlfSx7Im5hbWUiOiJmZiIsImRhdGFUeXBlIjoiREFURVRJTUUiLCJmaWVsZFR5cGUiOiIiLCJsZW4iOiIxOSIsImRlZmF1bHRWYWx1ZSI6IiIsImlzUGFydGl0aW9uIjpmYWxzZSwicGFydGl0aW9uVHlwZSI6InN0YXRpYyIsImZha2UiOmZhbHNlfV0sImFkdmFuY2VkIjp7fSwiY29tbW9uIjp7IndyaXRlTW9kZSI6Imluc2VydCBpbnRvIiwic3luY01vZGUiOiJqZGJjIn0sImRiTmFtZSI6ImhpdmVQYURiXzIwMjIwMTIwMTQzMTM3MTYyIn0sImNoYW5uZWwiOnsicGFyYWxsZWwiOiI0IiwiZmF1bHRUb2xlcmFudE51bSI6MCwiZmF1bHRUb2xlcmFudFBlcmNlbnQiOjcsImZhdWx0VG9sZXJhbnQiOiJwZXJjZW50Iiwic3luY1NwZWVkIjoibGltaXQiLCJub0xpbWl0IjoiIiwicmVjb3JkTGltaXQiOjAsImJ5dGVMaW1pdCI6NTAsImxpbWl0IjoiYnl0ZSJ9LCJsaW5lcyI6W3sic291cmNlIjoiY2MiLCJ0YXJnZXQiOiJjYyJ9LHsic291cmNlIjoiZGQiLCJ0YXJnZXQiOiJkZCJ9LHsic291cmNlIjoiZWUiLCJ0YXJnZXQiOiJlZSJ9LHsic291cmNlIjoiZmYiLCJ0YXJnZXQiOiJmZiJ9XX0sImN1c3RvbVBhcmFtIjp7fSwiaW5wdXRQYXJhbSI6W10sIm91dHB1dFBhcmFtIjpbXSwidGVtcGxhdGVQYXJhbSI6e319",
+  "resourceConfig": {
+    "dsId": "",
+    "dsName": "",
+    "dsType": "",
+    "dbName": "",
+    "type": "",
+    "executorResourceType": "PublicExecutor",
+    "resourceGroupName": "",
+    "resourceGroup": "",
+    "cuCount": 3,
+    "defaultCuCount": 3,
+    "defaultYarnCuCount": 3,
+    "yarnExecuteType": "YARN",
+    "yarnResourceGroup": "",
+    "yarnResourceGroupName": "",
+    "yarnCuCount": 3,
+    "requestLimitEnabled": false,
+    "requestLimitPercent": 10,
+    "yarn_advanced_enable": false,
+    "yarn_resource_detail": {
+      "driver_cu": 1,
+      "executor_cu": 1,
+      "executor_num": 2,
+      "resource_strategy": "cpu"
+    }
+  },
+  "depend_on": {
+    "frequencyType": "schedule",
+    "calendars": [],
+    "logicResGroup": [],
+    "logicResRelation": 1,
+    "frequency": "365",
+    "priority": 3,
+    "retryTimes": 3,
+    "retryInterval": 5,
+    "outDepend": true,
+    "failRetry": false,
+    "extNoticeEnable": false,
+    "frequencyMonthDay": {
+      "month": [],
+      "day": []
+    },
+    "jobDepend": [],
+    "flowDepend": [],
+    "extDepend": [],
+    "extNotices": {},
+    "outputEvents": [],
+    "executorGroupId": 0,
+    "outputEventEnable": false
+  },
+  "packages": [],
+  "functions": [],
+  "preAfterProcess": {
+    "after.type": "shell",
+    "before.type": "shell",
+    "after.command": "",
+    "before": false,
+    "before.command": "",
+    "after": false
+  },
+  "alarmConf": {},
+  "exitCode": {},
+  "showParams": "eyJzaW5rSGlkZUV4dHJhY3RGaWVsZHMiOm51bGx9",
+  "optParams": {},
+  "isUnLock": false
+}

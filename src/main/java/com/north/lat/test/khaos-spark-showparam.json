@@ -1,0 +1,974 @@
+{
+  "sync_type": "single",
+  "lines": [
+    {
+      "source": "aa",
+      "target": "aa"
+    },
+    {
+      "source": "bb",
+      "target": "bb"
+    },
+    {
+      "source": "cc",
+      "target": "cc"
+    },
+    {
+      "source": "dd",
+      "target": "dd"
+    },
+    {
+      "source": "ee",
+      "target": "ee"
+    },
+    {
+      "source": "ff",
+      "target": "ff"
+    }
+  ],
+  "sinkHideExtractFields": null,
+  "sourceTandemValue": [
+    "hive",
+    "defaultHive",
+    "hiveDb_20220120143156545",
+    "hivetb_20220120143158433"
+  ],
+  "sinkTandemValue": [
+    "hive",
+    "defaultHive",
+    "hivePaDb_20220120143137162",
+    "hivePatb_20220120143139476"
+  ],
+  "sourceParams": {
+    "selectedSource": {
+      "converDbCronEnable": 0,
+      "dataType": "hive",
+      "name": "defaultHive",
+      "id": 1,
+      "type": 0,
+      "manageMeta": true,
+      "replaceName": "defaultHive",
+      "manageStatus": 32767
+    },
+    "shardingSwitch": false,
+    "shardingSourceList": [
+    ],
+    "shardingDb": "",
+    "shardingTable": "",
+    "shardingDbKey": "",
+    "shardingDbType": "any",
+    "shardingDbValue": "",
+    "shardingTableKey": "",
+    "shardingTableType": "any",
+    "shardingTableValue": "",
+    "check_sink_nums": 0,
+    "fileType": "",
+    "charset": "",
+    "filedLength": "",
+    "showFixed_read_increment": false,
+    "file_name": "",
+    "technologySwitch": false,
+    "dateFilter": "1",
+    "splitFieldList": [
+      {
+        "id": 168904,
+        "techLogicTableId": 4587,
+        "colCode": "col-02fab8697ee4429f846678c97440c886",
+        "colName": "aa",
+        "colType": "STRING",
+        "length": "50",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807100,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807101,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807102,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807103,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807104,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "nac..50"
+          }
+        ]
+      },
+      {
+        "id": 168905,
+        "techLogicTableId": 4587,
+        "colCode": "col-ca2b8627a3b84a0e81c914ab2c7004ff",
+        "colName": "bb",
+        "colType": "NUMBER",
+        "length": "9",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807125,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807126,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807127,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807128,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807129,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "n..9"
+          }
+        ]
+      },
+      {
+        "id": 168906,
+        "techLogicTableId": 4587,
+        "colCode": "col-6f368916f25a4a1481bcdedd85e9ceb1",
+        "colName": "cc",
+        "colType": "DECIMAL",
+        "length": "20,18",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807115,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807116,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807117,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807118,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807119,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "20n(18)"
+          }
+        ]
+      },
+      {
+        "id": 168907,
+        "techLogicTableId": 4587,
+        "colCode": "col-75e669f68ec3444091c34592b60e8224",
+        "colName": "dd",
+        "colType": "DATE",
+        "length": "50",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807120,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807121,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807122,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807123,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807124,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "YYYY-MM-DD"
+          }
+        ]
+      },
+      {
+        "id": 168908,
+        "techLogicTableId": 4587,
+        "colCode": "col-3bfd0ff394b04f7caa883197266af54e",
+        "colName": "ee",
+        "colType": "TIME",
+        "length": "8",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807110,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807111,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807112,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807113,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807114,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "HH:MM:SS:NNN"
+          }
+        ]
+      },
+      {
+        "id": 168909,
+        "techLogicTableId": 4587,
+        "colCode": "col-08975da4931d4146bf5f43de76236659",
+        "colName": "ff",
+        "colType": "DATETIME",
+        "length": "19",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807105,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807106,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807107,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807108,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807109,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "YYYY-MM-DDTHH:MM:SS:NNN"
+          }
+        ]
+      }
+    ],
+    "time_offset_m": 0,
+    "time_offset_s": 0,
+    "hdfs_sub_path": "",
+    "tableFieldMapping": [
+      {
+        "id": 168904,
+        "techLogicTableId": 4587,
+        "colCode": "col-02fab8697ee4429f846678c97440c886",
+        "colName": "aa",
+        "colType": "STRING",
+        "length": "50",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807100,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807101,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807102,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807103,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807104,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "nac..50"
+          }
+        ]
+      },
+      {
+        "id": 168905,
+        "techLogicTableId": 4587,
+        "colCode": "col-ca2b8627a3b84a0e81c914ab2c7004ff",
+        "colName": "bb",
+        "colType": "NUMBER",
+        "length": "9",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807125,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807126,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807127,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807128,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807129,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "n..9"
+          }
+        ]
+      },
+      {
+        "id": 168906,
+        "techLogicTableId": 4587,
+        "colCode": "col-6f368916f25a4a1481bcdedd85e9ceb1",
+        "colName": "cc",
+        "colType": "DECIMAL",
+        "length": "20,18",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807115,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807116,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807117,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807118,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807119,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "20n(18)"
+          }
+        ]
+      },
+      {
+        "id": 168907,
+        "techLogicTableId": 4587,
+        "colCode": "col-75e669f68ec3444091c34592b60e8224",
+        "colName": "dd",
+        "colType": "DATE",
+        "length": "50",
+        "position": 0,
+        "isPartition": false,
+        "standardType": false,
+        "params": [
+          {
+            "id": 807120,
+            "pkeyChs": null,
+            "pKey": "PRIMARY_KEY",
+            "pValue": "false"
+          },
+          {
+            "id": 807121,
+            "pkeyChs": null,
+            "pKey": "NOT_NULL",
+            "pValue": "false"
+          },
+          {
+            "id": 807122,
+            "pkeyChs": null,
+            "pKey": "ENCRYPT_LEVEL",
+            "pValue": "5"
+          },
+          {
+            "id": 807123,
+            "pkeyChs": null,
+            "pKey": "DESENSITIZATION_TYPE",
+            "pValue": "0"
+          },
+          {
+            "id": 807124,
+            "pkeyChs": null,
+            "pKey": "ANC_EXPRESS",
+            "pValue": "YYYY-MM-DD"
+          }
+        ]
+      },
+      Object
+      {
+        ...
+      },
+      Object
+      {
+        ...
+      }
+    ],
+    "compression_type": "none",
+    "read_path_mode": {
+      "path_type": "default",
+      "file_name": "",
+      "folder_regex_path": "",
+      "folder_regex_range_type": "none",
+      "folder_regex_range_ruler": "",
+      "folder_regex_range_num": ""
+    },
+    "filter": "bb>0",
+    "skip_head": "false",
+    "sub_table": {
+      "on_off": "false",
+      "suffix": ""
+    },
+    "keyIndexLabel": "",
+    "value_mode": {
+      "type": "",
+      "write_mode": "standard",
+      "value_delimiter": ""
+    },
+    "incr_sync": true,
+    "reset_config": {
+      "reset": "earliest",
+      "timestamp": ""
+    },
+    "advanced_options": {
+      "delete_keys": {
+        "on_off": false
+      },
+      "rowkey_range": {
+        "on_off": false,
+        "row_start": "",
+        "row_end": ""
+      },
+      "data_version": {
+        "on_off": false,
+        "max_versions": 1,
+        "timestamp": "",
+        "min_timestamp": "",
+        "max_timestamp": ""
+      },
+      "split_mode": {
+        "on_off": false,
+        "split_options": "split_with_estimate",
+        "split_field": "",
+        "split_nums": 1
+      },
+      "ignore_abnormal": {
+        "on_off": true
+      },
+      "fixed_read_increment": {
+        "on_off": false,
+        "value": 0
+      },
+      "replace_content": {
+        "on_off": false,
+        "detailed": [
+        ]
+      }
+    },
+    "extract_fields": [
+      {
+        "length": "50",
+        "field_type": "",
+        "field": "aa",
+        "tag": "source_column",
+        "data_type": "STRING",
+        "option": "",
+        "name": "aa",
+        "key": "aa",
+        "id": "d7eb2f9d-01d1-4feb-aaaa-dec275712abe",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 0
+      },
+      {
+        "length": "9",
+        "field_type": "",
+        "field": "bb",
+        "tag": "source_column",
+        "data_type": "NUMBER",
+        "option": "",
+        "name": "bb",
+        "key": "bb",
+        "id": "3e75db6c-f2ea-4fb5-b820-b0072188c2b1",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 1
+      },
+      {
+        "length": "20,18",
+        "field_type": "",
+        "field": "cc",
+        "tag": "source_column",
+        "data_type": "DECIMAL",
+        "option": "floor(cc)",
+        "name": "cc",
+        "key": "cc",
+        "id": "e00a81c3-79c2-4f15-884f-bfdf60fa886f",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 2
+      },
+      {
+        "length": "50",
+        "field_type": "",
+        "field": "dd",
+        "tag": "source_column",
+        "data_type": "DATE",
+        "option": "",
+        "name": "dd",
+        "key": "dd",
+        "id": "8c30e5f8-ccf0-499d-963e-9bfb6b1bdc62",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 3
+      },
+      {
+        "length": "8",
+        "field_type": "",
+        "field": "ee",
+        "tag": "source_column",
+        "data_type": "TIME",
+        "option": "",
+        "name": "ee",
+        "key": "ee",
+        "id": "90fc103a-6d55-476a-9b96-7e8d9b83476c",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 4
+      },
+      {
+        "length": "19",
+        "field_type": "",
+        "field": "ff",
+        "tag": "source_column",
+        "data_type": "DATETIME",
+        "option": "",
+        "name": "ff",
+        "key": "ff",
+        "id": "6115bb5a-c2b9-4ba2-80cd-4133595d6326",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 5
+      }
+    ],
+    "allExtractFields": [
+      {
+        "length": "50",
+        "field_type": "",
+        "field": "aa",
+        "tag": "source_column",
+        "data_type": "STRING",
+        "option": "",
+        "name": "aa",
+        "key": "aa",
+        "id": "d7eb2f9d-01d1-4feb-aaaa-dec275712abe",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 0
+      },
+      {
+        "length": "9",
+        "field_type": "",
+        "field": "bb",
+        "tag": "source_column",
+        "data_type": "NUMBER",
+        "option": "",
+        "name": "bb",
+        "key": "bb",
+        "id": "3e75db6c-f2ea-4fb5-b820-b0072188c2b1",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 1
+      },
+      {
+        "length": "20,18",
+        "field_type": "",
+        "field": "cc",
+        "tag": "source_column",
+        "data_type": "DECIMAL",
+        "option": "floor(cc)",
+        "name": "cc",
+        "key": "cc",
+        "id": "e00a81c3-79c2-4f15-884f-bfdf60fa886f",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 2
+      },
+      {
+        "length": "50",
+        "field_type": "",
+        "field": "dd",
+        "tag": "source_column",
+        "data_type": "DATE",
+        "option": "",
+        "name": "dd",
+        "key": "dd",
+        "id": "8c30e5f8-ccf0-499d-963e-9bfb6b1bdc62",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 3
+      },
+      {
+        "length": "8",
+        "field_type": "",
+        "field": "ee",
+        "tag": "source_column",
+        "data_type": "TIME",
+        "option": "",
+        "name": "ee",
+        "key": "ee",
+        "id": "90fc103a-6d55-476a-9b96-7e8d9b83476c",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 4
+      },
+      {
+        "length": "19",
+        "field_type": "",
+        "field": "ff",
+        "tag": "source_column",
+        "data_type": "DATETIME",
+        "option": "",
+        "name": "ff",
+        "key": "ff",
+        "id": "6115bb5a-c2b9-4ba2-80cd-4133595d6326",
+        "userDefine": false,
+        "showTechnologyReview": false,
+        "openedTechnologyReview": false,
+        "selectTechnologyReviewList": [
+        ],
+        "__index__": 5
+      }
+    ],
+    "selectExtractFields": [
+      "aa",
+      "bb",
+      "cc",
+      "dd",
+      "ee",
+      "ff"
+    ]
+  },
+  "sinkParams": {
+    "fileType": "",
+    "charset": "",
+    "filedLength": "",
+    "file_name": "",
+    "selectedSource": {
+      "converDbCronEnable": 0,
+      "dataType": "hive",
+      "name": "defaultHive",
+      "id": 1,
+      "type": 0,
+      "manageMeta": true,
+      "replaceName": "defaultHive",
+      "manageStatus": 32767
+    },
+    "hdfs_sub_path": "",
+    "filter": "",
+    "IfDeleteOn": false,
+    "batch_size": 1000,
+    "logic_pk": [
+    ],
+    "write_option": "overwrite",
+    "add_head": "false",
+    "doc_id": {
+      "gen_rule_name": "field",
+      "rule": {
+        "stitching_fields": [
+        ],
+        "stitching_mode": ""
+      },
+      "ruleField": ""
+    },
+    "sub_table": {
+      "on_off": "false",
+      "suffix": ""
+    },
+    "sync_mode": "jdbc",
+    "key_mode": {
+      "key_index": [
+      ],
+      "key_delimiter": "",
+      "ttl_mode": {
+        "on_off": "true",
+        "ttl": "200"
+      }
+    },
+    "keyIndexLabel": "",
+    "value_mode": {
+      "type": "",
+      "write_mode": "standard",
+      "value_mode": "",
+      "value_delimiter": "",
+      "inner_key": ""
+    },
+    "acks": "",
+    "product_mode": "",
+    "hash_column": "",
+    "advanced_options": {
+      "data_split": {
+        "on_off": true,
+        "nums": 20
+      },
+      "parallelism": {
+        "on_off": false,
+        "write_parall": 1
+      },
+      "commit_recods": 10000
+    },
+    "extract_fields": [
+      {
+        "length": "50",
+        "field_type": "",
+        "from_field": "",
+        "field_props": {
+          "is_partition": true,
+          "key_type": "",
+          "default_value": "",
+          "partition_info": "dynamic-partition"
+        },
+        "field": "aa",
+        "data_type": "STRING",
+        "no_check": false,
+        "checkLineNG": false,
+        "userDefine": false,
+        "id": "56c8128e-02e6-48d1-b21a-647c833c1a39",
+        "__index__": 0
+      },
+      {
+        "length": "9",
+        "field_type": "",
+        "from_field": "",
+        "field_props": {
+          "is_partition": true,
+          "key_type": "",
+          "default_value": "",
+          "partition_info": "dynamic-partition"
+        },
+        "field": "bb",
+        "data_type": "NUMBER",
+        "no_check": false,
+        "checkLineNG": false,
+        "userDefine": false,
+        "id": "e8747fe4-45e5-4b22-9e5c-9453a5f913d6",
+        "__index__": 1
+      },
+      {
+        "length": "10,2",
+        "field_type": "",
+        "from_field": "",
+        "field_props": {
+          "is_partition": false,
+          "key_type": "",
+          "default_value": "",
+          "partition_info": "dynamic-partition"
+        },
+        "field": "cc",
+        "data_type": "DECIMAL",
+        "no_check": false,
+        "checkLineNG": true,
+        "userDefine": false,
+        "id": "7729cc4b-aacd-4e4a-9da7-4ab5269715cb",
+        "__index__": 2
+      },
+      {
+        "length": "50",
+        "field_type": "",
+        "from_field": "",
+        "field_props": {
+          "is_partition": false,
+          "key_type": "",
+          "default_value": "",
+          "partition_info": "dynamic-partition"
+        },
+        "field": "dd",
+        "data_type": "DATE",
+        "no_check": false,
+        "checkLineNG": false,
+        "userDefine": false,
+        "id": "43dccf1f-f879-4d2c-a7f6-36e5f1d54ae7",
+        "__index__": 3
+      },
+      {
+        "length": "8",
+        "field_type": "",
+        "from_field": "",
+        "field_props": {
+          "is_partition": false,
+          "key_type": "",
+          "default_value": "",
+          "partition_info": "dynamic-partition"
+        },
+        "field": "ee",
+        "data_type": "TIME",
+        "no_check": false,
+        "checkLineNG": false,
+        "userDefine": false,
+        "id": "ecfc9cde-8661-4ad6-83de-8a891d3b7cae",
+        "__index__": 4
+      },
+      {
+        "length": "19",
+        "field_type": "",
+        "from_field": "",
+        "field_props": {
+          "is_partition": false,
+          "key_type": "",
+          "default_value": "",
+          "partition_info": "dynamic-partition"
+        },
+        "field": "ff",
+        "data_type": "DATETIME",
+        "no_check": false,
+        "checkLineNG": false,
+        "userDefine": false,
+        "id": "18c7b042-4c73-4137-919b-528b82f96a24",
+        "__index__": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "dsName": "defaultHive",
+  "projectId": 257,
+  "dsType": "hive",
+  "projectName": "ysmAutoTestNoRoot",
+  "dsId": 1,
+  "tableName": [
+    "hivetb_20220120143158433"
+  ],
+  "where": "bb>0",
+  "columns": [
+    {
+      "name": "aa",
+      "dataType": "STRING",
+      "fieldType": "",
+      "len": "50",
+      "op": "",
+      "fake": false
+    },
+    {
+      "name": "bb",
+      "dataType": "NUMBER",
+      "fieldType": "",
+      "len": "9",
+      "op": "",
+      "fake": false
+    },
+    {
+      "name": "cc",
+      "dataType": "DECIMAL",
+      "fieldType": "",
+      "len": "20,18",
+      "op": "ceil(cc)",
+      "fake": false
+    },
+    {
+      "name": "dd",
+      "dataType": "DATE",
+      "fieldType": "",
+      "len": "50",
+      "op": "",
+      "fake": false
+    },
+    {
+      "name": "ee",
+      "dataType": "TIME",
+      "fieldType": "",
+      "len": "8",
+      "op": "",
+      "fake": false
+    },
+    {
+      "name": "ff",
+      "dataType": "DATETIME",
+      "fieldType": "",
+      "len": "19",
+      "op": "",
+      "fake": false
+    }
+  ],
+  "advanced": {
+  },
+  "common": {
+  },
+  "dbName": "hiveDb_20220120143156545"
+}
