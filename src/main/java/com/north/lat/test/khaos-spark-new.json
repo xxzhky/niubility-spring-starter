@@ -1,0 +1,647 @@
+{
+  "privateParam": {
+    "isCheck": false,
+    "techCheck": {
+      "id": "4",
+      "name": "技术检核",
+      "type": "transform",
+      "operator_name": "techCheck",
+      "strategy": {
+        "clazz": "",
+        "config": {
+          "check_sink_nums": 0,
+          "db_name": "hiveDb_20220120143156545",
+          "table_name": "hivetb_20220120143158433",
+          "extender": {
+            "check": {
+              "clazz": "",
+              "params": {
+                "ds_id": 1,
+                "ds_type": "hive",
+                "ds_name": "defaultHive",
+                "project_id": 257,
+                "project_name": "ysmAutoTestNoRoot",
+                "rule_ids": [
+                ]
+              }
+            }
+          },
+          "extract_fields": [
+            {
+              "field": "aa",
+              "data_type": "STRING",
+              "length": "50",
+              "field_type": "",
+              "option": {
+                "tech_check": {
+                  "on_off": false,
+                  "rule_options": [
+                  ]
+                }
+              }
+            },
+            {
+              "field": "bb",
+              "data_type": "NUMBER",
+              "length": "9",
+              "field_type": "",
+              "option": {
+                "tech_check": {
+                  "on_off": false,
+                  "rule_options": [
+                  ]
+                }
+              }
+            },
+            {
+              "field": "cc",
+              "data_type": "DECIMAL",
+              "length": "20,18",
+              "field_type": "",
+              "option": {
+                "tech_check": {
+                  "on_off": false,
+                  "rule_options": [
+                  ]
+                }
+              }
+            },
+            {
+              "field": "dd",
+              "data_type": "DATE",
+              "length": "50",
+              "field_type": "",
+              "option": {
+                "tech_check": {
+                  "on_off": false,
+                  "rule_options": [
+                  ]
+                }
+              }
+            },
+            {
+              "field": "ee",
+              "data_type": "TIME",
+              "length": "8",
+              "field_type": "",
+              "option": {
+                "tech_check": {
+                  "on_off": false,
+                  "rule_options": [
+                  ]
+                }
+              }
+            },
+            {
+              "field": "ff",
+              "data_type": "DATETIME",
+              "length": "19",
+              "field_type": "",
+              "option": {
+                "tech_check": {
+                  "on_off": false,
+                  "rule_options": [
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sinkParams": {
+      "id": "3",
+      "name": "",
+      "type": "sink",
+      "operator_name": "hive",
+      "strategy": {
+        "clazz": "",
+        "config": {
+          "db_name": "hivePaDb_20220120143137162",
+          "table_name": "hivePatb_20220120143139476",
+          "write_option": "overwrite",
+          "advanced_options": {
+            "concurrent_write": {
+              "on_off": true,
+              "nums": 10
+            },
+            "data_split": {
+              "on_off": true,
+              "nums": 20
+            },
+            "commit_recods": 10000
+          },
+          "extender": {
+            "auth": {
+              "clazz": "",
+              "params": {
+                "project_id": 257,
+                "project_name": "ysmAutoTestNoRoot",
+                "ds_type": "hive",
+                "ds_id": 1,
+                "ds_name": "defaultHive"
+              }
+            },
+            "meta": {
+              "clazz": "",
+              "params": {
+                "project_id": 257,
+                "project_name": "ysmAutoTestNoRoot",
+                "ds_type": "hive",
+                "ds_id": 1,
+                "ds_name": "defaultHive"
+              }
+            }
+          },
+          "extract_fields": [
+            {
+              "field": "aa",
+              "data_type": "STRING",
+              "length": "50",
+              "field_type": "",
+              "from_field": "aa",
+              "no_check": false,
+              "field_props": {
+                "is_partition": true,
+                "key_type": "",
+                "default_value": "",
+                "partition_info": "dynamic-partition"
+              }
+            },
+            {
+              "field": "bb",
+              "data_type": "NUMBER",
+              "length": "9",
+              "field_type": "",
+              "from_field": "bb",
+              "no_check": false,
+              "field_props": {
+                "is_partition": true,
+                "key_type": "",
+                "default_value": "",
+                "partition_info": "dynamic-partition"
+              }
+            },
+            {
+              "field": "cc",
+              "data_type": "DECIMAL",
+              "length": "10,2",
+              "field_type": "",
+              "from_field": "cc",
+              "no_check": false,
+              "field_props": {
+                "is_partition": false,
+                "key_type": "",
+                "default_value": "111.11",
+                "partition_info": "dynamic-partition"
+              }
+            },
+            {
+              "field": "dd",
+              "data_type": "DATE",
+              "length": "50",
+              "field_type": "",
+              "from_field": "dd",
+              "no_check": false,
+              "field_props": {
+                "is_partition": false,
+                "key_type": "",
+                "default_value": "",
+                "partition_info": "dynamic-partition"
+              }
+            },
+            {
+              "field": "ee",
+              "data_type": "TIME",
+              "length": "8",
+              "field_type": "",
+              "from_field": "ee",
+              "no_check": false,
+              "field_props": {
+                "is_partition": false,
+                "key_type": "",
+                "default_value": "",
+                "partition_info": "dynamic-partition"
+              }
+            },
+            {
+              "field": "ff",
+              "data_type": "DATETIME",
+              "length": "19",
+              "field_type": "",
+              "from_field": "ff",
+              "no_check": false,
+              "field_props": {
+                "is_partition": false,
+                "key_type": "",
+                "default_value": "",
+                "partition_info": "dynamic-partition"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sourceParams": {
+      "id": "1",
+      "name": "",
+      "type": "source",
+      "operator_name": "hive",
+      "strategy": {
+        "config": {
+          "db_name": "hiveDb_20220120143156545",
+          "table_name": "hivetb_20220120143158433",
+          "filter": "bb>0",
+          "advanced_options": {
+            "concurrent_read": {
+              "on_off": true,
+              "nums": 10
+            },
+            "sync_strategy": {
+              "on_off": true,
+              "type": "full"
+            },
+            "ignore_abnormal": {
+              "on_off": true
+            }
+          },
+          "extender": {
+            "auth": {
+              "clazz": "",
+              "params": {
+                "ds_type": "hive",
+                "ds_id": 1,
+                "ds_name": "defaultHive",
+                "project_name": "ysmAutoTestNoRoot",
+                "project_id": 257
+              }
+            },
+            "meta": {
+              "clazz": "",
+              "params": {
+                "ds_type": "hive",
+                "ds_id": 1,
+                "ds_name": "defaultHive",
+                "project_name": "ysmAutoTestNoRoot",
+                "project_id": 257
+              }
+            }
+          },
+          "extract_fields": [
+            {
+              "hasChs": 0,
+              "colName": "aa",
+              "colType": "STRING",
+              "isPartition": false,
+              "length": "50",
+              "colCode": "col-02fab8697ee4429f846678c97440c886",
+              "techLogicTableId": 4587,
+              "standardType": false,
+              "id": 168904,
+              "position": 0,
+              "params": [
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807100,
+                  "pKey": "PRIMARY_KEY"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807101,
+                  "pKey": "NOT_NULL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "5",
+                  "id": 807102,
+                  "pKey": "ENCRYPT_LEVEL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "0",
+                  "id": 807103,
+                  "pKey": "DESENSITIZATION_TYPE"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "nac..50",
+                  "id": 807104,
+                  "pKey": "ANC_EXPRESS"
+                }
+              ],
+              "isDel": 0
+            },
+            {
+              "hasChs": 0,
+              "colName": "bb",
+              "colType": "NUMBER",
+              "isPartition": false,
+              "length": "9",
+              "colCode": "col-ca2b8627a3b84a0e81c914ab2c7004ff",
+              "techLogicTableId": 4587,
+              "standardType": false,
+              "id": 168905,
+              "position": 0,
+              "params": [
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807125,
+                  "pKey": "PRIMARY_KEY"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807126,
+                  "pKey": "NOT_NULL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "5",
+                  "id": 807127,
+                  "pKey": "ENCRYPT_LEVEL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "0",
+                  "id": 807128,
+                  "pKey": "DESENSITIZATION_TYPE"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "n..9",
+                  "id": 807129,
+                  "pKey": "ANC_EXPRESS"
+                }
+              ],
+              "isDel": 0
+            },
+            {
+              "hasChs": 0,
+              "colName": "cc",
+              "colType": "DECIMAL",
+              "isPartition": false,
+              "length": "20,18",
+              "colCode": "col-6f368916f25a4a1481bcdedd85e9ceb1",
+              "techLogicTableId": 4587,
+              "standardType": false,
+              "id": 168906,
+              "position": 0,
+              "params": [
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807115,
+                  "pKey": "PRIMARY_KEY"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807116,
+                  "pKey": "NOT_NULL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "5",
+                  "id": 807117,
+                  "pKey": "ENCRYPT_LEVEL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "0",
+                  "id": 807118,
+                  "pKey": "DESENSITIZATION_TYPE"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "20n(18)",
+                  "id": 807119,
+                  "pKey": "ANC_EXPRESS"
+                }
+              ],
+              "isDel": 0
+            },
+            {
+              "hasChs": 0,
+              "colName": "dd",
+              "colType": "DATE",
+              "isPartition": false,
+              "length": "50",
+              "colCode": "col-75e669f68ec3444091c34592b60e8224",
+              "techLogicTableId": 4587,
+              "standardType": false,
+              "id": 168907,
+              "position": 0,
+              "params": [
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807120,
+                  "pKey": "PRIMARY_KEY"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807121,
+                  "pKey": "NOT_NULL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "5",
+                  "id": 807122,
+                  "pKey": "ENCRYPT_LEVEL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "0",
+                  "id": 807123,
+                  "pKey": "DESENSITIZATION_TYPE"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "YYYY-MM-DD",
+                  "id": 807124,
+                  "pKey": "ANC_EXPRESS"
+                }
+              ],
+              "isDel": 0
+            },
+            {
+              "hasChs": 0,
+              "colName": "ee",
+              "colType": "TIME",
+              "isPartition": false,
+              "length": "8",
+              "colCode": "col-3bfd0ff394b04f7caa883197266af54e",
+              "techLogicTableId": 4587,
+              "standardType": false,
+              "id": 168908,
+              "position": 0,
+              "params": [
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807110,
+                  "pKey": "PRIMARY_KEY"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807111,
+                  "pKey": "NOT_NULL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "5",
+                  "id": 807112,
+                  "pKey": "ENCRYPT_LEVEL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "0",
+                  "id": 807113,
+                  "pKey": "DESENSITIZATION_TYPE"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "HH:MM:SS:NNN",
+                  "id": 807114,
+                  "pKey": "ANC_EXPRESS"
+                }
+              ],
+              "isDel": 0
+            },
+            {
+              "hasChs": 0,
+              "colName": "ff",
+              "colType": "DATETIME",
+              "isPartition": false,
+              "length": "19",
+              "colCode": "col-08975da4931d4146bf5f43de76236659",
+              "techLogicTableId": 4587,
+              "standardType": false,
+              "id": 168909,
+              "position": 0,
+              "params": [
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807105,
+                  "pKey": "PRIMARY_KEY"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "false",
+                  "id": 807106,
+                  "pKey": "NOT_NULL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "5",
+                  "id": 807107,
+                  "pKey": "ENCRYPT_LEVEL"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "0",
+                  "id": 807108,
+                  "pKey": "DESENSITIZATION_TYPE"
+                },
+                {
+                  "pkeyChs": null,
+                  "pValue": "YYYY-MM-DDTHH:MM:SS:NNN",
+                  "id": 807109,
+                  "pKey": "ANC_EXPRESS"
+                }
+              ],
+              "isDel": 0
+            }
+          ]
+        }
+      }
+    },
+    "sourceMapping": {
+      "id": "2",
+      "name": "",
+      "type": "transform",
+      "operator_name": "filter-map",
+      "strategy": {
+        "clazz": "",
+        "config": {
+          "filter": "",
+          "extract_fields": [
+            {
+              "field": "aa",
+              "tag": "source_column",
+              "data_type": "STRING",
+              "option": "",
+              "length": "50",
+              "field_type": ""
+            },
+            {
+              "field": "bb",
+              "tag": "source_column",
+              "data_type": "NUMBER",
+              "option": "",
+              "length": "9",
+              "field_type": ""
+            },
+            {
+              "field": "cc",
+              "tag": "source_column",
+              "data_type": "DECIMAL",
+              "option": "floor(cc)",
+              "length": "20,18",
+              "field_type": ""
+            },
+            {
+              "field": "dd",
+              "tag": "source_column",
+              "data_type": "DATE",
+              "option": "",
+              "length": "50",
+              "field_type": ""
+            },
+            {
+              "field": "ee",
+              "tag": "source_column",
+              "data_type": "TIME",
+              "option": "",
+              "length": "8",
+              "field_type": ""
+            },
+            {
+              "field": "ff",
+              "tag": "source_column",
+              "data_type": "DATETIME",
+              "option": "",
+              "length": "19",
+              "field_type": ""
+            }
+          ]
+        }
+      }
+    }
+  },
+  "channel": {
+    "parallel": "4",
+    "faultTolerantNum": 0,
+    "faultTolerantPercent": 7,
+    "faultTolerant": "percent",
+    "syncSpeed": "limit",
+    "noLimit": "",
+    "recordLimit": 0,
+    "byteLimit": 50,
+    "limit": "byte"
+  },
+  "customParam": {
+  },
+  "inputParam": [
+  ],
+  "outputParam": [
+  ],
+  "templateParam": {
+  }
+}
