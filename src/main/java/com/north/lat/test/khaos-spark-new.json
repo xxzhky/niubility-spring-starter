@@ -623,18 +623,18 @@
           ]
         }
       }
+    },
+    "channel": {
+      "parallel": "4",
+      "faultTolerantNum": 0,
+      "faultTolerantPercent": 7,
+      "faultTolerant": "percent",
+      "syncSpeed": "limit",
+      "noLimit": "",
+      "recordLimit": 0,
+      "byteLimit": 50,
+      "limit": "byte"
     }
-  },
-  "channel": {
-    "parallel": "4",
-    "faultTolerantNum": 0,
-    "faultTolerantPercent": 7,
-    "faultTolerant": "percent",
-    "syncSpeed": "limit",
-    "noLimit": "",
-    "recordLimit": 0,
-    "byteLimit": 50,
-    "limit": "byte"
   },
   "customParam": {
   },
